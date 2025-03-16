@@ -1,7 +1,7 @@
 # Omada_Software_Controller
 #To install Omada Software Controller 03-2025
 #Based on : https://gist.github.com/OSCUK/3c76ccabe78b6d3ce479c6d885b9c065
-# I have install this software controller on Proxmox with a container it's a ubuntu 24.10 with 2 vcpu and 4gb ram
+#I have install this software controller on Proxmox with a container it's a ubuntu 24.10 with 2 vcpu and 4gb ram
 ![image](https://github.com/user-attachments/assets/42883a74-9325-4ac3-a8a9-48d3d52aee45)
 
 #I took the last version of all packages
@@ -30,3 +30,5 @@ wget https://static.tp-link.com/upload/software/2025/202501/20250109/Omada_SDN_C
 tar zxvf Omada_SDN_Controller_v5.15.8.2_linux_x64.tar.gz
 cd Omada_SDN_Controller_v5.15.8.2_linux_x64
 bash ./install.sh
+
+#go to https://[controller_ip]:8043/
