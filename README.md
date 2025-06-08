@@ -27,6 +27,7 @@ systemctl enable mongod
 
 #following package last update can be found at https://support.omadanetworks.com/fr-be/product/omada-software-controller/?resourceType=download
 wget https://static.tp-link.com/upload/software/2025/202501/20250109/Omada_SDN_Controller_v5.15.8.2_linux_x64.tar.gz
+
 tar zxvf Omada_SDN_Controller_v5.15.8.2_linux_x64.tar.gz
 cd Omada_SDN_Controller_v5.15.8.2_linux_x64
 bash ./install.sh
